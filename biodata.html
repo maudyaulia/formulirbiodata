@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Formulir Biodata</title>
+</head>
+<body>
+    <h2 >Formulir Biodata</h2>
+<form action="prosespost.php" method="POST">
+    <table cellpadding="2" cellspacing="2"> 
+        <tr>
+            <td width="130">Nama :</label>
+            <td><input type="text" name="nama"></td>
+        </tr>
+        <tr>
+            <td width="130">Alamat :</td>
+            <td><textarea name="alamat" rows="4" ></textarea></td>
+        </tr>
+        <tr>
+            <td width="130">Umur :</td>
+            <td><input type="number" name="umur" ></td>
+        </tr>
+        <tr>
+            <td width="130">Jenis Kelamin :</td>
+            <td>
+                <input type="radio" name="jenis_kelamin" value="Laki-laki" > Laki-laki
+                <input type="radio" name="jenis_kelamin" value="Perempuan" > Perempuan
+            </td>
+        </tr>
+        <tr>
+            <td width="130">Pekerjaan :</td>
+            <td><input type="text" name="pekerjaan" ></td>
+        </tr>
+        <tr>
+            <td width="130">Email :</td>
+            <td><input type="email" name="email" ></td>
+        </tr>
+        <tr>
+            <td width="130">Telepon :</td>
+            <td><input type="tel" name="telepon" ></td>    
+        </tr>
+        <tr>
+            <td widht="130">Pendidikan :</td>
+            <td><input type="text" name="pendidikan" ></td>
+        </tr>
+        <tr>
+            <td wodth="130">Hobi :</td>
+            <td><input type="text" name="hobi" ></td>
+        </tr>
+        <tr>
+            <td width="130">Tanggal Lahir :</td>
+            <td><input type="date" name="tanggal_lahir" ></td>
+        </tr>
+        <td>
+            <input type="submit"  name="kirim" value="Kirim">
+            <input type="reset" name="reset" value="Reset">
+        </td>
+    </table>
+    </form>
+</body>
+</html>
